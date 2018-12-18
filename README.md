@@ -1,5 +1,8 @@
 # Aliyun SLS Log For Laravel
 
+# 说明
+**此包来源于 [lokielse/laravel-sls](https://github.com/lokielse/laravel-sls)**
+
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -9,7 +12,7 @@
 Via Composer
 
 ``` bash
-$ composer require lokielse/laravel-sls
+$ composer require elainekoo/laravel-sls
 ```
 
 ## Config
