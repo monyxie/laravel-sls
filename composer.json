@@ -27,31 +27,12 @@
   "require": {
     "illuminate/support": "~5.1|~6.0",
     "php": "~5.5|~7.0",
-    "lokielse/aliyun-open-api-sls": "^1.0.0",
+    "monyxie/aliyun-open-api-sls": "^2.0.0",
     "psr/log": "^1.1"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "~4.0||~5.0",
-    "scrutinizer/ocular": "~1.1",
-    "squizlabs/php_codesniffer": "~2.3"
   },
   "autoload": {
     "psr-4": {
       "Lokielse\\LaravelSLS\\": "src"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Lokielse\\LaravelSLS\\": "tests"
-    }
-  },
-  "scripts": {
-    "test": "phpunit",
-    "format": "phpcbf --standard=psr2 src/"
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0-dev"
     }
   }
 }
